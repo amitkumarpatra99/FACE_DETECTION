@@ -25,15 +25,14 @@ This project demonstrates the use of computer vision techniques for face detecti
 
 ## 📁 Project Structure
 
+```
 FACE_DETECTION/
 ├── Face Recognaition # Main Python script
 ├── haarcascade_frontalface_default.xml
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
-yaml
-Copy code
+```
 
 > ⚠️ If your file names or folders differ, update the structure accordingly.
 
@@ -61,75 +60,90 @@ This method is fast and suitable for real-time applications.
 ```bash
 git clone https://github.com/amitkumarpatra99/FACE_DETECTION.git
 cd FACE_DETECTION
-2️⃣ Install Dependencies
-If requirements.txt exists:
+```
 
-bash
-Copy code
+### 2️⃣ Install Dependencies
+If `requirements.txt` exists:
+
+```bash
 pip install -r requirements.txt
+```
+
 Or install manually:
 
-bash
-Copy code
+```bash
 pip install opencv-python
-▶️ Usage
-📸 Face Detection from Image
-bash
-Copy code
+```
+
+---
+
+## ▶️ Usage
+
+### 📸 Face Detection from Image
+```bash
 python "Face Recognaition" --image path/to/image.jpg
+```
 The program will display the image with detected faces highlighted.
 
-🎥 Real-Time Face Detection (Webcam)
-bash
-Copy code
+### 🎥 Real-Time Face Detection (Webcam)
+```bash
 python "Face Recognaition"
-Webcam will start automatically
+```
+- Webcam will start automatically
+- Faces will be detected in real time
+- Press `q` to exit
 
-Faces will be detected in real time
-
-Press q to exit
-
-📷 Sample Output
-diff
-Copy code
+### 📷 Sample Output
+```
 +----------------------+
 |  [ Face Detected ]   |
 |  ████████████████    |
 |                      |
 +----------------------+
-(Add screenshots here if available)
+```
+*(Add screenshots here if available)*
 
-📦 Dependencies
-Package	Description
-opencv-python	Computer vision & face detection
+---
 
-🔮 Future Improvements
-Face recognition (identify person)
+## 📦 Dependencies
 
-Multiple face tracking
+| Package | Description |
+| :--- | :--- |
+| `opencv-python` | Computer vision & face detection |
 
-Save detected faces to files
+---
 
-GUI interface using Tkinter / PyQt
+## 🔮 Future Improvements
 
-Deep learning-based detection (CNN / DNN)
+- [ ] Face recognition (identify person)
+- [ ] Multiple face tracking
+- [ ] Save detected faces to files
+- [ ] GUI interface using Tkinter / PyQt
+- [ ] Deep learning-based detection (CNN / DNN)
 
-🤝 Contributing
+---
+
+## 🤝 Contributing
+
 Contributions are welcome!
 
-Fork the repository
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Submit a Pull Request
 
-Create a new branch
+---
 
-Commit your changes
+## 📄 License
 
-Submit a Pull Request
-
-📄 License
 This project is open-source and free to use for learning and development purposes.
 
-(Add license if applicable – MIT recommended)
+*(Add license if applicable – MIT recommended)*
 
-👨‍💻 Author
-Amit Kumar Patra
-GitHub: https://github.com/amitkumarpatra99
+---
+
+## 👨‍💻 Author
+
+**Amit Kumar Patra**  
+GitHub: [amitkumarpatra99](https://github.com/amitkumarpatra99)
+Website: [mrpatra](https://mrpatra.vercel.app)
