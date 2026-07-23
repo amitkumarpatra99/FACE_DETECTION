@@ -1,4 +1,4 @@
-# FACE_DETECTION 👤🎥
+# FACE_DETECTION 👤
 
 A **Face Detection project** built using **Python and OpenCV** that detects human faces from images and real-time webcam video.  
 This project demonstrates the use of computer vision techniques for face detection using a pre-trained Haar Cascade classifier.
